@@ -1,0 +1,19 @@
+{
+  "name": "jaytech-rn-css",
+  "version": "1.0.0",
+  "description": "A css utility package for React Native projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jwb81/jaytech-rn-css.git"
+  },
+  "author": "Jason Barnett",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jwb81/jaytech-rn-css/issues"
+  },
+  "homepage": "https://github.com/Jwb81/jaytech-rn-css#readme"
+}
