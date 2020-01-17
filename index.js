@@ -1,7 +1,11 @@
+// STYLES
 const containerStyles = require("./containers");
 const flexStyles = require("./flex");
 const marginAndPaddingStyles = require("./marginAndPadding");
 const textStyles = require("./text");
+
+// CONSTANTS
+const colors = require("./colors");
 
 const mergedStyles = Object.assign(
   {},
@@ -11,6 +15,8 @@ const mergedStyles = Object.assign(
   flexStyles
 );
 
-console.log(mergedStyles)
+// console.log(mergedStyles)
+// console.log(colors);
 
 module.exports = mergedStyles;
+exports.colors = colors;
