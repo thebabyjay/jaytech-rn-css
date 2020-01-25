@@ -1,9 +1,14 @@
 {
   "name": "jaytech-rn-css",
-  "version": "1.0.1",
+  "version": "1.0.6",
   "description": "A css utility package for React Native projects",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
+    "build": "rm -r dist && babel src -d dist",
+    "publish_package": "npm run build && npm publish",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +20,14 @@
   "bugs": {
     "url": "https://github.com/Jwb81/jaytech-rn-css/issues"
   },
-  "homepage": "https://github.com/Jwb81/jaytech-rn-css#readme"
+  "homepage": "https://github.com/Jwb81/jaytech-rn-css#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.3",
+    "@babel/core": "^7.8.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "babel-preset-latest": "^6.24.1",
+    "webpack": "^4.41.5"
+  },
+  "dependencies": {}
 }

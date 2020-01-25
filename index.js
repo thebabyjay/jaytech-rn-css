@@ -19,4 +19,9 @@ const mergedStyles = Object.assign(
 // console.log(colors);
 
 module.exports = mergedStyles;
+
 exports.colors = colors;
+exports.palette = colors;
+
+exports.j = mergedStyles;
+exports.styles = mergedStyles;
