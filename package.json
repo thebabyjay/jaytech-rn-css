@@ -1,6 +1,6 @@
 {
   "name": "jaytech-rn-css",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A css utility package for React Native projects",
   "main": "dist/index.js",
   "files": [
